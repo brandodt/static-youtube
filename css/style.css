@@ -233,6 +233,7 @@ div.main {
   border-radius: 10px;
   margin-right: 10px;
   text-decoration: none !important;
+  margin-bottom: 10px;
 }
 
 .button-list:hover {
@@ -243,9 +244,72 @@ div.main {
   text-decoration: none;
 }
 
+.button-list:active {
+  background-color: white;
+  color: #000;
+  transition-duration: 0.25s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button-list:visited {
+  background-color: white;
+  color: #000;
+  transition-duration: 0.25s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button-list:focus {
+  background-color: white;
+  color: #000;
+  transition-duration: 0.25s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .button-menu {
   margin-top: 15px;
   margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.video-menu {
+  margin-left: 35px;
+  /*display: inline;*/
+}
+
+.video-item {
+  border-radius: 20px;
+  width: 350px;
+  display: inline;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+.video-profile {
+  display: inline;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.video-title {
+  font-family: "Roboto","Arial",sans-serif;
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
+  position: absolute;
+  margin-left: 15px;
+}
+
+.video-description {
+  font-family: "Roboto","Arial",sans-serif;
+  font-size: .9rem;
+  color: #AAAAAA;
+  position: absolute;
+  margin-left: 50px;
+  display: inline;
 }
 
 path {
