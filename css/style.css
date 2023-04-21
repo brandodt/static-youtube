@@ -232,7 +232,7 @@ div.main {
   padding-right: 15px;
   border-radius: 10px;
   margin-right: 10px;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .button-list:hover {
