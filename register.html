@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Gmail</title>
+    <link rel="stylesheet" href="./css/style-login-reg.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="myweb-header-bar  centered">
+            <div class="header">
+                <div class="logo logo-w" aria-label="myweb"></div>
+            </div>
+        </div>
+        <div>
+            <div class="banner">
+                <h1> One account. All of Google. </h1>
+                <h2 class="hidden-small"> Sign in with your Google Account </h2>
+            </div>
+            <div class="main-content">
+                <div class="card signin-card">
+
+                    <div class="circle-mask">
+                        <canvas id="canvas" class="circle" width="96" height="96"></canvas>
+                    </div>
+
+                    <!--login form -->
+                    <form action="login.html">
+                        <div class="form-panel">
+                            <div class="slide-out">
+                                <div class="input-wrapper focused">
+                                    <div id="identifier-shown">
+                                        <div>
+                                            <input id="Email" type="text" required="" placeholder="Name">
+                                            <input id="Email" type="email" required="" placeholder="Email">
+                                            <input id="Email" type="password" required="" placeholder="Password">
+                                            <input id="Email" type="password" required="" placeholder="Re-type password">
+                                        </div>
+                                    </div>
+                                </div>
+                                <input id="next" name="signIn" class="rc-button rc-button-submit" type="submit"
+                                    value="Create Account">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div>
+                    <div class="card-mask">
+                        <div class="one-myweb">
+                            <p class="create-account">
+                                <span id="link-signup"> <a href="./login.html"> Already have an account? Login </a> </span>
+                            </p>
+                            <p class="tagline">
+                                One Google Account for everything Google
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
