@@ -283,7 +283,6 @@ div.main {
   border-radius: 20px;
   width: 350px;
   display: inline;
-  padding-bottom: 10px;
   padding-right: 10px;
 }
 
@@ -299,16 +298,12 @@ div.main {
   font-size: 1rem;
   color: white;
   font-weight: 500;
-  position: absolute;
-  margin-left: 15px;
 }
 
 .video-description {
   font-family: "Roboto","Arial",sans-serif;
   font-size: .9rem;
   color: #AAAAAA;
-  position: absolute;
-  margin-left: 50px;
   display: inline;
 }
 
@@ -318,4 +313,8 @@ path {
 
 a {
   text-decoration: none !important;
+}
+
+td { 
+  vertical-align: top;
 }
