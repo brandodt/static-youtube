@@ -190,6 +190,7 @@ input[type="text"] {
 
 .signin-card #Email,
 .signin-card #Passwd,
+.signin-card #Name,
 .signin-card .captcha {
   direction: ltr;
   height: 44px;

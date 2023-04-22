@@ -221,6 +221,11 @@ div.main {
   margin-left: 60px;
 }
 
+div.main-profile {
+  margin-left: 355px;
+  margin-top: 20px;
+}
+
 .button-list {
   border: none;
   background-color: #272727;
@@ -293,17 +298,45 @@ div.main {
   border-radius: 50%;
 }
 
+.video-profile-profile {
+  display: inline;
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+}
+
 .video-title {
-  font-family: "Roboto","Arial",sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 1rem;
   color: white;
   font-weight: 500;
 }
 
+.video-title-profile {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 500;
+}
+
 .video-description {
-  font-family: "Roboto","Arial",sans-serif;
-  font-size: .9rem;
-  color: #AAAAAA;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 0.9rem;
+  color: #aaaaaa;
+  display: inline;
+}
+
+.video-description {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 0.9rem;
+  color: #aaaaaa;
+  display: inline;
+}
+
+.video-description-profile {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 0.9rem;
+  color: #aaaaaa;
   display: inline;
 }
 
@@ -315,6 +348,75 @@ a {
   text-decoration: none !important;
 }
 
-td { 
+td {
   vertical-align: top;
+}
+
+.menu {
+  width: 800px;
+  max-width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 40px;
+}
+
+.radio {
+  display: none;
+}
+
+.label {
+  min-width: 70px;
+  font-size: 12px;
+  display: block;
+  text-align: center;
+  font-weight: bolder;
+  padding: 8px 0;
+  transition: 0.3s;
+  cursor: pointer;
+  color: #aaaaaa;
+  font-family: "Roboto", "Noto", sans-serif;
+}
+
+.label:hover {
+  color: #F1F1F1;
+}
+
+.label.community {
+  min-width: 90px;
+}
+
+.underline {
+  width: 70px;
+  height: 4px;
+  background: #B0B0B0;
+  position: absolute;
+  bottom: 0;
+  transition: 0.3s;
+}
+
+.radio:checked + label {
+  color: #F1F1F1;
+}
+
+.radio[value="home"]:checked ~ .underline {
+  left: 0;
+}
+
+.radio[value="playlists"]:checked ~ .underline {
+  left: 70px;
+}
+
+.radio[value="community"]:checked ~ .underline {
+  left: 140px;
+  width: 90px;
+}
+
+.radio[value="channels"]:checked ~ .underline {
+  left: 230px;
+}
+
+.radio[value="about"]:checked ~ .underline {
+  left: 300px;
 }
