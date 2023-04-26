@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "YouTube Sans";
+  src: url("../fonts/youtube-sans/YouTubeSansRegular.woff2") format("woff2"),
+    url("../fonts/youtube-sans/YouTubeSansRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 html,
 body {
   background-color: #0f0f0f;
@@ -57,13 +66,6 @@ body {
   border-radius: 0 20px 20px 0;
   cursor: pointer;
   font-size: 15px;
-}
-
-aside {
-  float: left;
-  height: 800px;
-  width: 60px;
-  position: fixed;
 }
 
 div.aside-content {
@@ -379,7 +381,7 @@ td {
 }
 
 .label:hover {
-  color: #F1F1F1;
+  color: #f1f1f1;
 }
 
 .label.community {
@@ -389,14 +391,14 @@ td {
 .underline {
   width: 70px;
   height: 4px;
-  background: #B0B0B0;
+  background: #b0b0b0;
   position: absolute;
   bottom: 0;
   transition: 0.3s;
 }
 
 .radio:checked + label {
-  color: #F1F1F1;
+  color: #f1f1f1;
 }
 
 .radio[value="home"]:checked ~ .underline {
@@ -418,4 +420,109 @@ td {
 
 .radio[value="about"]:checked ~ .underline {
   left: 300px;
+}
+
+video {
+  width: 1920px;
+  height: 780px;
+}
+
+.main-video-content {
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.video-player-title {
+  font-family: "Youtube Sans", "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+}
+
+.subscribe {
+  width: 100px;
+  height: 35px;
+  background-color: #f1f1f1;
+  color: #000;
+  margin-left: 17px;
+  border-radius: 20px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.subscribe:hover {
+  background-color: #d9d9d9;
+}
+
+.gray-btn {
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 10px;
+  background-color: #272727;
+  color: #fff;
+  border-radius: 20px;
+  font-family: "Roboto", "Arial", sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+.gray-btn-like {
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #272727;
+  color: #fff;
+  border-radius: 20px 0 0 20px;
+  border: 1px solid #8282821a;
+  font-family: "Roboto", "Arial", sans-serif;
+  cursor: pointer;
+}
+
+.gray-btn-dislike {
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: -10px;
+  margin-right: 10px;
+  background-color: #272727;
+  color: #fff;
+  border-radius: 0 20px 20px 0;
+  border: 1px solid #8282821a;
+  font-family: "Roboto", "Arial", sans-serif;
+  cursor: pointer;
+}
+
+.gray-btn-txt {
+  vertical-align: top;
+  font-family: "Youtube Sans", "Roboto", "Arial", sans-serif;
+  font-size: 15px;
+}
+
+.gray-btn:hover,
+.gray-btn-dislike:hover,
+.gray-btn-like:hover,
+.gray-btn-txt:hover {
+  background-color: #3f3f3f;
+}
+
+.main-video-description {
+  background-color: #272727;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px;
+  font-family:"Roboto", "Arial", sans-serif;
+  font-size:14px;
+  width: 1263px;
+}
+
+.main-video-description-title {
+
 }
