@@ -1,3 +1,5 @@
-Static Page of Youtube
+Static Page of Youtube using HTML and CSS.
 
-This is for Educational Purpose and Use only.
+I didn't use any frameworks.
+
+This is for Educational Purpose and Use Only.
