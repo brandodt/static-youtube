@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./images/thumb/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./images/favicon_32x32.png" sizes="32x32">
+    <link rel="icon" href="./images/favicon_48x48.png" sizes="48x48">
+    <link rel="icon" href="./images/favicon_96x96.png" sizes="96x96">
+    <link rel="icon" href="./images/favicon_144x144.png" sizes="144x144">
+    <title>YouTube</title>
+</head>
+
+<body>
+    <div class="heading">
+        <header>
+            <div class="topnav">
+                <yt-icon id="logo-icon" class="style-scope ytd-logo">
+                    <a href="index.html">
+                        <img width="6%" style="position: fixed; margin-left: -35px; margin-top:7px;""
+                            src=" ./images/youtube.svg" alt="">
+                    </a><!--css-build:shady--></yt-icon>
+                <form style="display:inline;" action="404.html">
+                    <input class="searchbar" type="text" placeholder="Search">
+                    <button class="searchbt" type="submit"><i class="fa fa-search"></i></button>
+                </form>
+                <span style="float:right; margin-top:5px;">
+                    <a class="profile" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet"
+                            focusable="false" style="pointer-events: none; display: inline; width: 25px;">
+                            <g class="style-scope yt-icon">
+                                <path
+                                    d="M14,13h-3v3H9v-3H6v-2h3V8h2v3h3V13z M17,6H3v12h14v-6.39l4,1.83V8.56l-4,1.83V6 M18,5v3.83L22,7v8l-4-1.83V19H2V5H18L18,5 z"
+                                    class="style-scope yt-icon"></path>
+                            </g>
+                        </svg>
+                    </a>
+                    <a class="profile" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet"
+                            focusable="false" style="pointer-events: none; display: inline; width: 25px;">
+                            <g class="style-scope yt-icon">
+                                <path
+                                    d="M10,20h4c0,1.1-0.9,2-2,2S10,21.1,10,20z M20,17.35V19H4v-1.65l2-1.88v-5.15c0-2.92,1.56-5.22,4-5.98V3.96 c0-1.42,1.49-2.5,2.99-1.76C13.64,2.52,14,3.23,14,3.96l0,0.39c2.44,0.75,4,3.06,4,5.98v5.15L20,17.35z M19,17.77l-2-1.88v-5.47 c0-2.47-1.19-4.36-3.13-5.1c-1.26-0.53-2.64-0.5-3.84,0.03C8.15,6.11,7,7.99,7,10.42v5.47l-2,1.88V18h14V17.77z"
+                                    class="style-scope yt-icon"></path>
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="./login.html">
+                        <img class="profile" src="./images/profile11.jpg">
+                    </a>
+                </span>
+            </div>
+        </header>
+    </div>
+    <aside style="float: left;height: 800px;width: 60px;position: fixed;">
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox">
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+
+            <ul class="menu__box">
+                <li><span style="margin-left: -26px; margin-top: -84px; display: block; padding: 12px 24px; color: #fff; font-family: 'Roboto', sans-serif;
+                    font-size: 14px;
+                    font-weight: 600;
+                    text-decoration: none;
+                    transition-duration: .25s;" href="#"><yt-icon id="logo-icon" class="style-scope ytd-logo"><img
+                                width="6%" style="position: fixed; margin-left: 50px; margin-top:25px;"
+                                src="./images/youtube.svg" alt=""><!--css-build:shady--></yt-icon></span></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet"
+                        focusable="false" class="style-scope yt-icon"
+                        style="margin-left: 20px; margin-right: 20px; margin-top: 4px; float:left; pointer-events: none; display: block; width: 10%;">
+                        <g class="style-scope yt-icon">
+                            <path fill="#FFF" d="M4,10V21h6V15h4v6h6V10L12,3Z" class="style-scope yt-icon"></path>
+                        </g>
+                    </svg><a class="menu__item" href="index.html">Home</a></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet"
+                        focusable="false" class="style-scope yt-icon"
+                        style="margin-left: 20px; margin-right: 20px; margin-top: 4px; float:left; pointer-events: none; display: block; width: 10%;">
+                        <g class="style-scope yt-icon">
+                            <g class="style-scope yt-icon">
+                                <path fill="#FFF"
+                                    d="M11,7l6,3.5L11,14V7L11,7z M18,20H4V6H3v15h15V20z M21,18H6V3h15V18z M7,17h13V4H7V17z"
+                                    class="style-scope yt-icon"></path>
+                            </g>
+                        </g>
+                    </svg><a class="menu__item" href="#">Library</a></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet"
+                        focusable="false" class="style-scope yt-icon"
+                        style="margin-left: 20px; margin-right: 20px; margin-top: 4px; float:left; pointer-events: none; display: block; width: 10%;">
+                        <g class="style-scope yt-icon">
+                            <path fill="#FFF"
+                                d="M10,18v-6l5,3L10,18z M17,3H7v1h10V3z M20,6H4v1h16V6z M22,9H2v12h20V9z M3,10h18v10H3V10z"
+                                class="style-scope yt-icon"></path>
+                        </g>
+                    </svg><a class="menu__item" href="#">Subscriptions</a></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet"
+                        focusable="false" class="style-scope yt-icon"
+                        style="margin-left: 20px; margin-right: 20px; margin-top: 4px; float:left; pointer-events: none; display: block; width: 10%;">
+                        <g class="style-scope yt-icon">
+                            <path fill="#FFF"
+                                d="M14.97,16.95L10,13.87V7h2v5.76l4.03,2.49L14.97,16.95z M22,12c0,5.51-4.49,10-10,10S2,17.51,2,12h1c0,4.96,4.04,9,9,9 s9-4.04,9-9s-4.04-9-9-9C8.81,3,5.92,4.64,4.28,7.38C4.17,7.56,4.06,7.75,3.97,7.94C3.96,7.96,3.95,7.98,3.94,8H8v1H1.96V3h1v4.74 C3,7.65,3.03,7.57,3.07,7.49C3.18,7.27,3.3,7.07,3.42,6.86C5.22,3.86,8.51,2,12,2C17.51,2,22,6.49,22,12z"
+                                class="style-scope yt-icon"></path>
+                        </g>
+                    </svg><a class="menu__item" href="#">History</a></li>
+                <hr>
+            </ul>
+
+        </div>
+    </aside>
+    <article>
+        <div class="main-video">
+            <video src="./videos/8.mp4" controls autoplay muted></video>
+            <div class="main-video-content">
+                <aside style="float: right;width: 400px; margin-right:100px;">
+                    <div style="margin-top: 10px;">
+                        <a style="text-decoration: none !important;" href="#">
+                            <button class="button-list" type="submit">
+                                All
+                            </button>
+                        </a>
+                        <a style="text-decoration: none !important;" href="#">
+                            <button class="button-list" type="submit">
+                                Music
+                            </button>
+                        </a>
+                        <a style="text-decoration: none !important;" href="#">
+                            <button class="button-list" type="submit">
+                                Live
+                            </button>
+                        </a>
+                        <a style="text-decoration: none !important;" href="#">
+                            <button class="button-list" type="submit">
+                                Philippine Music
+                            </button>
+                        </a>
+                        <a style="text-decoration: none !important;" href="#">
+                            <button class="button-list" type="submit">
+                                Gaming
+                            </button>
+                        </a>
+                        <a style="text-decoration: none !important;" href="#">
+                            <button class="button-list" type="submit">
+                                Mixes
+                            </button>
+                        </a>
+                    </div>
+                    <table>
+                        <tr>
+                            <td>
+                                <a href="./page-1.html">
+                                    <img src="./images/thumb/1.jpg" width="150px" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="./page-1.html"><span style='font-family: "Roboto", "Arial", sans-serif;  font-size: .9rem;
+                                color: white;
+                                font-weight: 500;'>3 Minutes of Satisfying Sheriff One Taps - Valorant
+                                        Montage</span></a><br>
+                                <a href="./profile.html"><span class="video-description">T0sikk</span></a><br>
+                                <span class="video-description">21K views • 2 years ago</span><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="./page-2.html">
+                                    <img src="./images/thumb/2.jpg" width="150px" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="./page-2.html"><span style='font-family: "Roboto", "Arial", sans-serif;  font-size: .9rem;
+                                color: white;
+                                font-weight: 500;'>LOVE - SLOWDOUGH feat. KARMA SAGA (COVER)</span></a><br>
+                                <a href="./profile.html"><span class="video-description">KUSH Co.</span></a><br>
+                                <span class="video-description">342K views • 2 years ago</span><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="./page-3.html">
+                                    <img src="./images/thumb/3.jpg" width="150px" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="./page-3.html"><span style='font-family: "Roboto", "Arial", sans-serif;  font-size: .9rem;
+                                color: white;
+                                font-weight: 500;'>Bayani's joke makes Vice Ganda laugh so hard | GGV</span></a><br>
+                                <a href="./profile.html"><span class="video-description">ABS-CBN Entertainment</span></a><br>
+                                <span class="video-description">9.8M views • 4 years ago</span><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="./page-4.html">
+                                    <img src="./images/thumb/4.jpg" width="150px" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="./page-4.html"><span style='font-family: "Roboto", "Arial", sans-serif;  font-size: .9rem;
+                                color: white;
+                                font-weight: 500;'>Best Volleyball Defense / Digs / Saves in 3 minutes</span></a><br>
+                                <a href="./profile.html"><span class="video-description">Titans Volleyball Fan</span></a><br>
+                                <span class="video-description">1.8K views • 4 years ago</span><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="./page-5.html">
+                                    <img src="./images/thumb/5.jpg" width="150px" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="./page-5.html"><span style='font-family: "Roboto", "Arial", sans-serif;  font-size: .9rem;
+                                color: white;
+                                font-weight: 500;'>Dinosaur Cannibalism | Planet Dinosaur | BBC</span></a><br>
+                                <a href="./profile.html"><span class="video-description">BBC Earth</span></a><br>
+                                <span class="video-description">55M views • 9 years ago</span><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="./page-6.html">
+                                    <img src="./images/thumb/6.jpg" width="150px" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="./page-6.html"><span style='font-family: "Roboto", "Arial", sans-serif;  font-size: .9rem;
+                                color: white;
+                                font-weight: 500;'>SQLI + FILTER + UPLOAD + LFI</span></a><br>
+                                <a href="./profile.html"><span class="video-description">Dwayne Lifter</span></a><br>
+                                <span class="video-description">456 views • 3 years ago</span><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="./page-7.html">
+                                    <img src="./images/thumb/7.jpg" width="150px" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="./page-7.html"><span style='font-family: "Roboto", "Arial", sans-serif;  font-size: .9rem;
+                                color: white;
+                                font-weight: 500;'>INSANE END OF REGULATION Timberwolves vs Lakers UNCUT</span></a><br>
+                                <a href="./profile.html"><span class="video-description">NBA</span></a><br>
+                                <span class="video-description">206K views • 9 days ago</span><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="./page-9.html">
+                                    <img src="./images/thumb/9.jpg" width="150px" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="./page-9.html"><span style='font-family: "Roboto", "Arial", sans-serif;  font-size: .9rem;
+                                color: white;
+                                font-weight: 500;'>Sagada</span><br>
+                                    <a href="./profile.html"><span class="video-description">Cup of Joe -
+                                            Topic</span></a><br>
+                                    <span class="video-description">246K views • 1 year ago</span><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="./page-10.html">
+                                    <img src="./images/thumb/10.jpg" width="150px" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="./page-10.html"><span style='font-family: "Roboto", "Arial", sans-serif;  font-size: .9rem;
+                                color: white;
+                                font-weight: 500;'>SpongeBob SquarePants | Two Sponges | Nickelodeon UK</span><br>
+                                    <a href="./profile.html"><span class="video-description">Nickelodeon
+                                            UK</span></a><br>
+                                    <span class="video-description">109M views • 6 years ago</span><br>
+                            </td>
+                        </tr>
+                    </table>
+                </aside>
+                <span class="video-player-title">Rick Astley - Never Gonna Give You Up (Official Music Video)</span>
+                <table style="margin-top:10px;">
+                    <tr>
+                        <td>
+                            <a href="./profile.html">
+                                <img class="video-profile" src="./images/profile8.jpg" alt="">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="./profile.html"><span class="video-title"
+                                    style="margin-left: 5px;">Rick Astley</span></a><br>
+                            <span class="video-description" style="margin-left: 5px;">3.67M subscribers</span><br>
+                        </td>
+                        <td>
+                            <button class="subscribe">Subscribe</button>
+                        </td>
+                        <td>
+                            <button class="gray-btn-like" style="margin-left: 540px;"><img src="./images/like.svg"
+                                    alt="" width="25px"> <span class="gray-btn-txt">16M</span> </button>
+                        </td>
+                        <td>
+                            <button class="gray-btn-dislike"><img src="./images/dislike.svg" alt=""
+                                    width="25px"></button>
+                        </td>
+                        <td>
+                            <button class="gray-btn"><img src="./images/share.svg" alt="" width="25px"> <span
+                                    class="gray-btn-txt">Share</span> </button>
+                        </td>
+                        <td>
+                            <button class="gray-btn"><img src="./images/clip.svg" alt="" width="25px"> <span
+                                    class="gray-btn-txt">Clip</span> </button>
+                        </td>
+                        <td>
+                            <button class="gray-btn"><img src="./images/save.svg" alt="" width="25px"> <span
+                                    class="gray-btn-txt">Save</span> </button>
+                        </td>
+                        <td>
+                            <button class="gray-btn"><img src="./images/dot.svg" alt="" width="25px"> </button>
+                        </td>
+                    </tr>
+                </table>
+                <div class="main-video-description">
+                    <span style='font-weight:bold;'>1,387,201,070 views 25 Oct 2009</span>
+                    <span style="font-weight:bold; color:#3EA6FF; cursor: pointer;">#NeverGonnaGiveYouUp #RickAstley #OfficialMusicVideo</span>
+                    <p>The official video for “Never Gonna Give You Up” by Rick Astley<br><br>
+
+                        ‘Hold Me In Your Arms’ – deluxe blue vinyl,  2CD and digital deluxe out 12th May 2023 Pre-order here – <span style="font-weight:bold; color:#3EA6FF; cursor: pointer;">https://rick-astley.lnk.to/HMIYA2023ID</span><br><br>
+                        
+                        “Never Gonna Give You Up” was a global smash on its release in July 1987, topping the charts in 25 countries including Rick’s native UK and the US Billboard Hot 100.  It also won the Brit Award for Best<br>
+                        single in 1988. Stock Aitken and Waterman wrote and produced the track which was the lead-off single and lead track from Rick’s debut LP “Whenever You Need Somebody”.  The album was itself a UK<br>
+                        number one and would go on to sell over 15 million copies worldwide.<br><br>
+                        
+                        The legendary video was directed by Simon West – who later went on to make Hollywood blockbusters such as Con Air, Lara Croft – Tomb Raider and The Expendables 2.  The video passed the 1bn YouTube views milestone on 28 July 2021.</p>
+                </div><br><br><br>
+                <center style='color: #fff;padding: 10px;font-family:" Roboto", "Arial" , sans-serif; font-size:14px;'>
+                    <span>Comments are turned off.</span>
+                    <span style="color:#3EA6FF; cursor:pointer; ">Learn more</span>
+                </center>
+            </div>
+        </div>
+    </article>
+</body>
+
+</html>

@@ -349,6 +349,7 @@ a {
   text-decoration: none !important;
 }
 
+
 td {
   vertical-align: top;
 }
@@ -518,7 +519,58 @@ video {
   border-radius: 10px;
   color: #fff;
   padding: 10px;
-  font-family:"Roboto", "Arial", sans-serif;
-  font-size:14px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 14px;
   width: 1263px;
+}
+
+.main-history-content {
+  font-family: "Roboto", "Arial", sans-serif;
+  margin-left: 355px;
+  margin-right: 80px;
+  margin-top: 26px;
+  color: white;
+}
+
+.main-history-content-aside {
+  float: right;
+}
+
+.main-history-title {
+  font-weight: 600;
+}
+
+.main-history-description {
+  font-size: 14px;
+  margin-left: 345px;
+}
+
+#history {
+  font-size: 10px;
+}
+
+.mng {
+  padding: 10px;
+}
+
+.mng:hover {
+  background-color: #3F3F3F;
+  padding: 10px;
+  border: 1px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.upl-vid {
+  background-color: #3EA6FF;
+  border: none;
+  border-radius: 40px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.upl-vid:hover {
+  background-color: #65B8FF;
+  cursor: pointer;
 }
