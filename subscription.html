@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./images/thumb/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./images/favicon_32x32.png" sizes="32x32">
+    <link rel="icon" href="./images/favicon_48x48.png" sizes="48x48">
+    <link rel="icon" href="./images/favicon_96x96.png" sizes="96x96">
+    <link rel="icon" href="./images/favicon_144x144.png" sizes="144x144">
+    <title>YouTube</title>
+</head>
+
+<body>
+    <div class="heading">
+        <header>
+            <div class="topnav">
+                <yt-icon id="logo-icon" class="style-scope ytd-logo">
+                    <a href="index.html">
+                        <img width="6%" style="position: fixed; margin-left: -35px; margin-top:7px;""
+                    src=" ./images/youtube.svg" alt="">
+                    </a><!--css-build:shady--></yt-icon>
+                <form style="display:inline;" action="404.html">
+                    <input class="searchbar" type="text" placeholder="Search">
+                    <button class="searchbt" type="submit"><i class="fa fa-search"></i></button>
+                </form>
+                <span style="float:right; margin-top:5px;">
+                    <a class="profile" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet"
+                            focusable="false" style="pointer-events: none; display: inline; width: 25px;">
+                            <g class="style-scope yt-icon">
+                                <path
+                                    d="M14,13h-3v3H9v-3H6v-2h3V8h2v3h3V13z M17,6H3v12h14v-6.39l4,1.83V8.56l-4,1.83V6 M18,5v3.83L22,7v8l-4-1.83V19H2V5H18L18,5 z"
+                                    class="style-scope yt-icon"></path>
+                            </g>
+                        </svg>
+                    </a>
+                    <a class="profile" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet"
+                            focusable="false" style="pointer-events: none; display: inline; width: 25px;">
+                            <g class="style-scope yt-icon">
+                                <path
+                                    d="M10,20h4c0,1.1-0.9,2-2,2S10,21.1,10,20z M20,17.35V19H4v-1.65l2-1.88v-5.15c0-2.92,1.56-5.22,4-5.98V3.96 c0-1.42,1.49-2.5,2.99-1.76C13.64,2.52,14,3.23,14,3.96l0,0.39c2.44,0.75,4,3.06,4,5.98v5.15L20,17.35z M19,17.77l-2-1.88v-5.47 c0-2.47-1.19-4.36-3.13-5.1c-1.26-0.53-2.64-0.5-3.84,0.03C8.15,6.11,7,7.99,7,10.42v5.47l-2,1.88V18h14V17.77z"
+                                    class="style-scope yt-icon"></path>
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="./profile.html">
+                        <img class="profile" src="./images/profile11.jpg">
+                    </a>
+                </span>
+            </div>
+        </header>
+    </div>
+    <aside style="float: left;height: 800px;width: 60px;position: fixed;">
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox">
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+
+            <ul class="menu__box">
+                <li><span style="margin-left: -26px; margin-top: -84px; display: block; padding: 12px 24px; color: #fff; font-family: 'Roboto', sans-serif;
+                    font-size: 14px;
+                    font-weight: 600;
+                    text-decoration: none;
+                    transition-duration: .25s;" href="./index.html"><yt-icon id="logo-icon"
+                            class="style-scope ytd-logo"><img width="6%"
+                                style="position: fixed; margin-left: 50px; margin-top:25px;" src="./images/youtube.svg"
+                                alt=""><!--css-build:shady--></yt-icon></span></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet"
+                        focusable="false" class="style-scope yt-icon"
+                        style="margin-left: 20px; margin-right: 20px; margin-top: 4px; float:left; pointer-events: none; display: block; width: 10%;">
+                        <g class="style-scope yt-icon">
+                            <path d="M12,4.33l7,6.12V20H15V14H9v6H5V10.45l7-6.12M12,3,4,10V21h6V15h4v6h6V10L12,3Z"
+                                class="style-scope yt-icon"></path>
+                        </g>
+                    </svg><a class="menu__item" href="./index.html">Home</a></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet"
+                        focusable="false" class="style-scope yt-icon"
+                        style="margin-left: 20px; margin-right: 20px; margin-top: 4px; float:left; pointer-events: none; display: block; width: 10%;">
+                        <g class="style-scope yt-icon">
+                            <g class="style-scope yt-icon">
+                                <path fill="#FFF"
+                                    d="M11,7l6,3.5L11,14V7L11,7z M18,20H4V6H3v15h15V20z M21,18H6V3h15V18z M7,17h13V4H7V17z"
+                                    class="style-scope yt-icon"></path>
+                            </g>
+                        </g>
+                    </svg><a class="menu__item" href="./library.html">Library</a></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet"
+                        focusable="false" class="style-scope yt-icon"
+                        style="margin-left: 20px; margin-right: 20px; margin-top: 4px; float:left; pointer-events: none; display: block; width: 10%;">
+                        <g class="style-scope yt-icon">
+                            <path d="M20,7H4V6h16V7z M22,9v12H2V9H22z M15,15l-5-3v6L15,15z M17,3H7v1h10V3z" class="style-scope yt-icon"></path>
+                        </g>
+                    </svg><a class="menu__item" href="#">Subscriptions</a></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet"
+                        focusable="false" class="style-scope yt-icon"
+                        style="margin-left: 20px; margin-right: 20px; margin-top: 4px; float:left; pointer-events: none; display: block; width: 10%;">
+                        <g class="style-scope yt-icon">
+                            <path fill="#FFF" d="M14.97,16.95L10,13.87V7h2v5.76l4.03,2.49L14.97,16.95z M22,12c0,5.51-4.49,10-10,10S2,17.51,2,12h1c0,4.96,4.04,9,9,9 s9-4.04,9-9s-4.04-9-9-9C8.81,3,5.92,4.64,4.28,7.38C4.17,7.56,4.06,7.75,3.97,7.94C3.96,7.96,3.95,7.98,3.94,8H8v1H1.96V3h1v4.74 C3,7.65,3.03,7.57,3.07,7.49C3.18,7.27,3.3,7.07,3.42,6.86C5.22,3.86,8.51,2,12,2C17.51,2,22,6.49,22,12z" class="style-scope yt-icon"></path>
+                        </g>
+                    </svg><a class="menu__item" href="./history.html">History</a></li>
+                <hr>
+            </ul>
+
+        </div>
+        <div class="aside-content">
+            <a class="aside-svg" href="./index.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                    preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon"
+                    style="display: block; width: 500%;">
+                    <g class="style-scope yt-icon">
+                        <path d="M12,4.33l7,6.12V20H15V14H9v6H5V10.45l7-6.12M12,3,4,10V21h6V15h4v6h6V10L12,3Z"
+                            class="style-scope yt-icon"></path>
+                    </g>
+                </svg>Home</a>
+
+            <a class="aside-svg" href="./library.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                    preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon"
+                    style="display: block; width: 500%;">
+                    <g class="style-scope yt-icon">
+                        <g class="style-scope yt-icon">
+                            <path fill="#FFF"
+                                d="M11,7l6,3.5L11,14V7L11,7z M18,20H4V6H3v15h15V20z M21,18H6V3h15V18z M7,17h13V4H7V17z"
+                                class="style-scope yt-icon"></path>
+                        </g>
+                    </g>
+                </svg>Library</a>
+
+            <a class="aside-svg" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                    preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon"
+                    style="display: block; width: 500%;">
+                    <g class="style-scope yt-icon">
+                        <path d="M20,7H4V6h16V7z M22,9v12H2V9H22z M15,15l-5-3v6L15,15z M17,3H7v1h10V3z" class="style-scope yt-icon"></path>
+                    </g>
+                </svg>Subscriptions</a>
+
+            <a class="aside-svg" href="./history.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                    preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon"
+                    style="display: block; width: 500%;">
+                    <g class="style-scope yt-icon">
+                        <path fill="#FFF" d="M14.97,16.95L10,13.87V7h2v5.76l4.03,2.49L14.97,16.95z M22,12c0,5.51-4.49,10-10,10S2,17.51,2,12h1c0,4.96,4.04,9,9,9 s9-4.04,9-9s-4.04-9-9-9C8.81,3,5.92,4.64,4.28,7.38C4.17,7.56,4.06,7.75,3.97,7.94C3.96,7.96,3.95,7.98,3.94,8H8v1H1.96V3h1v4.74 C3,7.65,3.03,7.57,3.07,7.49C3.18,7.27,3.3,7.07,3.42,6.86C5.22,3.86,8.51,2,12,2C17.51,2,22,6.49,22,12z" class="style-scope yt-icon"></path>
+                    </g>
+                </svg>History</a>
+        </div>
+    </aside>
+
+    <div class="main-sub-content">
+        <article>
+            <span class="sub-title">Beauty & Fashion</span>
+            <br><br>
+            <table>
+                <tr>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles01.jpg" alt="">
+                    </td>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles02.jpg" alt="">
+                    </td>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles03.jpg" alt="">
+                    </td>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles04.jpg" alt="">
+                    </td>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles05.jpg" alt="">
+                    </td>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles06.jpg" alt="">
+                    </td>
+                </tr>
+                <tr style="font-size: 14px; font-weight:bold; color:#fff; text-align:center;">
+                    <td>Tiffany Darlyn</td>
+                    <td>Alexandra Rodriguez</td>
+                    <td>Sarah Belle</td>
+                    <td>Paige Secosky</td>
+                    <td>Sally Jo</td>
+                    <td>Gabriella ♡</td>
+                </tr>
+                <tr style="font-size: 12px; color:#aaaaaa; text-align:center;">
+                    <td>214K subscribers</td>
+                    <td>493K subscribers</td>
+                    <td>377K subscribers</td>
+                    <td>767K subscribers</td>
+                    <td>218K subscribers</td>
+                    <td>883K subscribers</td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                </tr>
+            </table>
+            <span class="mng" style="color:#fff; font-weight:bold; font-size:14px">Show more</span>
+            <br><br>
+            <hr style="margin-top: 15px; margin-bottom:15px; color:#6A6A6A42;">
+
+            <span class="sub-title">Sports</span>
+            <br><br>
+            <table>
+                <tr>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles07.jpg" alt="">
+                    </td>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles08.jpg" alt="">
+                    </td>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles09.jpg" alt="">
+                    </td>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles10.jpg" alt="">
+                    </td>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles11.jpg" alt="">
+                    </td>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles12.jpg" alt="">
+                    </td>
+                </tr>
+                <tr style="font-size: 14px; font-weight:bold; color:#fff; text-align:center;">
+                    <td>JustBombsProductions</td>
+                    <td>Soccer AM</td>
+                    <td>It's The Donnellys</td>
+                    <td>TPS</td>
+                    <td>MLB</td>
+                    <td>Tommy Toe Hold</td>
+                </tr>
+                <tr style="font-size: 12px; color:#aaaaaa; text-align:center;">
+                    <td>266K subscribers</td>
+                    <td>1.25M subscribers</td>
+                    <td>1.13M subscribers</td>
+                    <td>1.18M subscribers</td>
+                    <td>4.3M subscribers</td>
+                    <td>113K subscribers</td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                </tr>
+            </table>
+            <span class="mng" style="color:#fff; font-weight:bold; font-size:14px">Show more</span>
+            <br><br>
+            <hr style="margin-top: 15px; margin-bottom:15px; color:#6A6A6A42;">
+
+            <span class="sub-title">Music</span>
+            <br><br>
+            <table>
+                <tr>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles13.jpg" alt="">
+                    </td>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles14.jpg" alt="">
+                    </td>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles15.jpg" alt="">
+                    </td>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles16.jpg" alt="">
+                    </td>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles17.jpg" alt="">
+                    </td>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles18.jpg" alt="">
+                    </td>
+                </tr>
+                <tr style="font-size: 14px; font-weight:bold; color:#fff; text-align:center;">
+                    <td>Nicki Minaj</td>
+                    <td>EminemMusic</td>
+                    <td>Beyoncé</td>
+                    <td>Rihanna</td>
+                    <td>Justin Bieber</td>
+                    <td>Katy Perry</td>
+                </tr>
+                <tr style="font-size: 12px; color:#aaaaaa; text-align:center;">
+                    <td>71.3M subscribers</td>
+                    <td>25.4M subscribers</td>
+                    <td>56.1M subscribers</td>
+                    <td>25.8M subscribers</td>
+                    <td>41.6M subscribers</td>
+                    <td>44.1M subscribers</td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                </tr>
+            </table>
+            <span class="mng" style="color:#fff; font-weight:bold; font-size:14px">Show more</span>
+            <br><br>
+            <hr style="margin-top: 15px; margin-bottom:15px; color:#6A6A6A42;">
+
+            <span class="sub-title">Tech</span>
+            <br><br>
+            <table>
+                <tr>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles19.jpg" alt="">
+                    </td>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles20.jpg" alt="">
+                    </td>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles21.jpg" alt="">
+                    </td>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles22.jpg" alt="">
+                    </td>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles23.jpg" alt="">
+                    </td>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles24.jpg" alt="">
+                    </td>
+                </tr>
+                <tr style="font-size: 14px; font-weight:bold; color:#fff; text-align:center;">
+                    <td>ColdFusion</td>
+                    <td>PhoneBuff</td>
+                    <td>wwjoshdew</td>
+                    <td>Jon Rettinger</td>
+                    <td>Ezvid Wiki</td>
+                    <td>Tech of Tomorrow</td>
+                </tr>
+                <tr style="font-size: 12px; color:#aaaaaa; text-align:center;">
+                    <td>4.48M subscribers</td>
+                    <td>1.46M subscribers</td>
+                    <td>236K subscribers</td>
+                    <td>1.61M subscribers</td>
+                    <td>736K subscribers</td>
+                    <td>546K subscribers</td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                </tr>
+            </table>
+            <span class="mng" style="color:#fff; font-weight:bold; font-size:14px">Show more</span>
+            <br><br>
+            <hr style="margin-top: 15px; margin-bottom:15px; color:#6A6A6A42;">
+
+            <span class="sub-title">Gaming</span>
+            <br><br>
+            <table>
+                <tr>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles25.jpg" alt="">
+                    </td>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles26.jpg" alt="">
+                    </td>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles27.jpg" alt="">
+                    </td>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles28.jpg" alt="">
+                    </td>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles29.jpg" alt="">
+                    </td>
+                    <td>
+                        <img class="tbl-img" src="./images/subs/profiles30.jpg" alt="">
+                    </td>
+                </tr>
+                <tr style="font-size: 14px; font-weight:bold; color:#fff; text-align:center;">
+                    <td>Smosh Games</td>
+                    <td>Vman</td>
+                    <td>VanossGaming</td>
+                    <td>KSI</td>
+                    <td>BrainScratch Commentaries</td>
+                    <td>CaptainSparklez</td>
+                </tr>
+                <tr style="font-size: 12px; color:#aaaaaa; text-align:center;">
+                    <td>7.35M subscribers</td>
+                    <td>300K subscribers</td>
+                    <td>25.8M subscribers</td>
+                    <td>24.1M subscribers</td>
+                    <td>88.8K subscribers</td>
+                    <td>11.4M subscribers</td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                    <td><button class="gray-btn2">Subscribe</button></td>
+                </tr>
+            </table>
+            <span class="mng" style="color:#fff; font-weight:bold; font-size:14px">Show more</span>
+        </article>
+    </div>
+</body>
+
+</html>

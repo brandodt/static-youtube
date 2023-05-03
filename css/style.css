@@ -349,7 +349,6 @@ a {
   text-decoration: none !important;
 }
 
-
 td {
   vertical-align: top;
 }
@@ -508,7 +507,8 @@ video {
 .gray-btn:hover,
 .gray-btn-dislike:hover,
 .gray-btn-like:hover,
-.gray-btn-txt:hover {
+.gray-btn-txt:hover,
+.gray-btn2:hover {
   background-color: #3f3f3f;
 }
 
@@ -554,7 +554,7 @@ video {
 }
 
 .mng:hover {
-  background-color: #3F3F3F;
+  background-color: #3f3f3f;
   padding: 10px;
   border: 1px;
   border-radius: 40px;
@@ -562,7 +562,7 @@ video {
 }
 
 .upl-vid {
-  background-color: #3EA6FF;
+  background-color: #3ea6ff;
   border: none;
   border-radius: 40px;
   padding: 10px;
@@ -571,6 +571,73 @@ video {
 }
 
 .upl-vid:hover {
-  background-color: #65B8FF;
+  background-color: #65b8ff;
   cursor: pointer;
+}
+
+.main-library {
+  width: 70%;
+}
+
+.main-library-content-aside {
+  float: right;
+  margin-top: 50px;
+  margin-right: 220px;
+  text-align: center;
+  width: 175px;
+}
+
+.main-library-content-aside > img {
+  border-radius: 100px;
+  width: 85px;
+}
+
+.library-aside {
+  margin-top: 5px;
+  float: left !important;
+  font-size: 12px;
+  display: inline;
+  color: #aaaaaa;
+}
+
+.library-aside-number {
+  margin-top: 5px;
+  float: right !important;
+  font-size: 12px;
+  color: #aaaaaa;
+}
+
+.main-sub-content > article {
+  font-family: "Roboto", "Arial", sans-serif;
+  margin-left: 336px;
+  width: 67%;
+  margin-right: 575px;
+  margin-top: 17px;
+}
+
+.sub-title {
+  font-weight: bold;
+  color: white;
+}
+
+.tbl-img {
+  width: 100px;
+  border-radius: 100%;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.gray-btn2 {
+  font-family: "Roboto", "Arial", sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 8px;
+  background-color: #272727;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
